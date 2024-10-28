@@ -3,7 +3,6 @@ addButton.addEventListener('click', function(){
     const task = document.getElementById('task').value;
     let contentList = document.querySelector('.content-exist')
     let newElement = document.createElement('p');
-    // let newText = document.createTextNode(task);
     newElement.textContent = task;
     let bungkusContent = document.createElement('div');
     // tombol close list
